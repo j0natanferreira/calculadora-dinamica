@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Calculadora - Prompt</title>
+</head>
+<body>
+    <div class="container">
+        <section class="left">
+            <img src="img/Calculator.svg" alt="">
+        </section>
+        <section class="right">
+            <h1>Calculadora Dinâmica</h1>
+            <div class="table">
+                <!-- Primeiro numero -->
+                <label for="">Digite o primeiro número</label>
+                <input type="number" placeholder="0" class="num1">
+
+                <!-- Sinal de operação -->
+                <label for="">Digite o sinal da sua operação</label>
+                <input type="text" placeholder="(+) (-) (/) (*) " class="sinal">
+
+                <!-- Segundo numero -->
+                <label for="">Digite o segundo número</label>
+                <input type="number" placeholder="0" class="num2">
+
+                <h2 class="resultado">Resultado: 0</h2>
+                <button onclick="calculadora()">CALCULAR</button>
+            </div>
+           </section>
+    </div>
+
+    <script src="assets/scrip.js"></script>
+</body>
+</html>
