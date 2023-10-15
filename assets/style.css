@@ -112,3 +112,14 @@ body {
 
     color: #EBEBEB;
 }
+
+@media only screen and (max-width: 820px){
+    .left{
+        display: none;
+    }
+
+    .container{
+        width: 90%;
+        height: 60%;
+    }
+}

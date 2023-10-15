@@ -33,6 +33,9 @@ function calculadora() {
         parseInt(document.querySelector(".num1").value = "");
         parseInt(document.querySelector(".sinal").value = "");
         parseInt(document.querySelector(".num2").value = "");
+    }else {
+        alert("Caractere inválido!")
+        parseInt(document.querySelector(".sinal").value = "");
     }
 
     console.log(total)
