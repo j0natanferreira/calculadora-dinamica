@@ -1,5 +1,5 @@
 # calculadora-dinamica
-Projeto básico de uma calculadora dinâmica com HTML, CSS e JAVASCRIPT (Sem responsividade)
+Projeto básico de uma calculadora dinâmica com HTML, CSS e JAVASCRIPT 
 
 https://j0natanferreira.github.io/calculadora-dinamica/
 
