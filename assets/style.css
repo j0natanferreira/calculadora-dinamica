@@ -114,6 +114,11 @@ body {
 }
 
 @media only screen and (max-width: 820px){
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    
     .left{
         display: none;
     }
