@@ -1,9 +1,9 @@
 function calculadora() {
-    var num1 = parseInt(document.querySelector(".num1").value);
+    var num1 = parseFloat(document.querySelector(".num1").value);
 
     var sinal = document.querySelector(".sinal").value;
 
-    var num2 = parseInt(document.querySelector(".num2").value);
+    var num2 = parseFloat(document.querySelector(".num2").value);
 
     var total = 0;
 
